@@ -16,3 +16,4 @@ impl BoundsLegacyHash of LegacyHash<Bounds> {
         LegacyHash::hash(state, (value.lower, value.upper))
     }
 }
+ 
